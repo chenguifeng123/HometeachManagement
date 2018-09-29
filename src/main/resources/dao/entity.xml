@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hometeach.dao.EntityDao" >
+
+    <insert id="addEntity">
+        insert into ${tableName}(${tableColumns}) values(${tableValues})
+    </insert>
+
+    <update id="updateEntity">
+        update ${tableName} set ${updateColumns} where ${keyColumns}
+    </update>
+
+    <delete id="deleteEntity" >
+        delete from ${tableName} where ${keyColumns}
+    </delete>
+
+    <select id="findEntityByKey" resultType="java.util.LinkedHashMap">
+        select * from ${tableName} where ${keyColumns}
+    </select>
+
+    <select id="findEntitys" resultType="java.util.LinkedHashMap">
+        select * from ${tableName}
+    </select>
+
+    <select id="findGrade" resultType="java.util.LinkedHashMap">
+        select grade.*,classNumber - ifnull(max(currentClassNumber),0) as remainClassNumber from grade left join teaching on grade.classId = teaching.classId group by classId
+    </select>
+	
+	<select id="findCourse" resultType="java.util.LinkedHashMap">
+        select a.classId, a.className,a.teacherId,
+			classNumber - ifnull(max(currentClassNumber),0) as remainClassNumber,
+			a.teachingTime, a.teachingAssistant from
+			(select classId,className,teacherId,classNumber,teachingTime1 as teachingTime,teachingAssistant from grade
+			where teachingTime1 like ${week}
+			union 
+			select classId,className,teacherId,classNumber,teachingTime2 as teachingTime,teachingAssistant from grade
+			where teachingTime2 like ${week}) a
+		left join teaching on a.classId = teaching.classId group by a.classId
+		having remainClassNumber > 0
+    </select>
+
+    <select id="findSpecialEntitys" resultType="java.util.LinkedHashMap">
+        select ${selectList} from ${tableName}
+    </select>
+	
+	<select id="searchTeaching" resultType="java.util.LinkedHashMap">
+        select * from teaching where classId in (select classId from grade where className like ${key})
+    </select>
+	
+	<select id="findSalary" resultType="java.util.LinkedHashMap">
+		select teacherId, lastName,hourSalary, sum(classNumber) as classNumber, sum(transportAllowance) as transportAllowance,sum(counts) as counts, sum(salary) as salary
+			from(
+				select t.teacherId,t.lastName,t.hourSalary, max(s.currentClassNumber) - min(s.lastClassNumber) as classNumber, 
+					g.transportAllowance, count(1) as counts,(max(s.currentClassNumber) - min(s.lastClassNumber)) * t.hourSalary + count(1) * ifnull(g.transportAllowance,0) as salary
+					from teacher t, teaching s, grade g 
+				where t.teacherId = s.teacherId and s.classId = g.classId and s.teachingType != 2 and
+					s.teachingDate between #{startDate} and #{endDate}
+					group by s.teacherId,s.classId
+			) m group by teacherId,lastName,hourSalary			
+    </select>
+
+	<select id="findLecture" resultType="java.util.LinkedHashMap">
+        select s.lastName, g.className, t.teachingDate, t.teachingTime, t.currentClassNumber - t.lastClassNumber as duration 
+		   from teacher s, teaching t,grade g 
+		where s.teacherId = t.teacherId and t.classId = g.classId and
+			t.teacherId = ${teacherId} and t.teachingType != 2 and t.teachingDate between #{startDate} and #{endDate}
+    </select>
+	
+</mapper>
