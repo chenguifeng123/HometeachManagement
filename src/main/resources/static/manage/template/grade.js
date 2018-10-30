@@ -76,7 +76,8 @@
                         {value:3, desc:'Fingerprints 2B'},{value:4, desc:'Fingerprints 3A'},{value:5, desc:'Fingerprints 3B'},
                         {value:6, desc:'Phonics'},{value:7, desc:'Nursery Rhyme'},{value:8, desc:'First Friends 1'},{value:9, desc:'First Friends 2'},
 						{value:10, desc:'First Friends 3'},{value:11, desc:'剑桥少儿英语1上'},{value:12, desc:'剑桥少儿英语1下'},
-						{value:13, desc:'剑桥少儿英语2上'},{value:14, desc:'剑桥少儿英语2下'},{value:15, desc:'剑桥少儿英语3上'},{value:16, desc:'剑桥少儿英语3下'}],
+						{value:13, desc:'剑桥少儿英语2上'},{value:14, desc:'剑桥少儿英语2下'},{value:15, desc:'剑桥少儿英语3上'},{value:16, desc:'剑桥少儿英语3下'},
+						{value:17, desc:'OurWorld1'},{value:18, desc:'OurWorld2'},{value:19, desc:'OurWorld3'}],
                     refs:{},
                     value : 0
                 },
@@ -89,7 +90,8 @@
                         {value:3, desc:'Fingerprints 2B'},{value:4, desc:'Fingerprints 3A'},{value:5, desc:'Fingerprints 3B'},
                         {value:6, desc:'Phonics'},{value:7, desc:'Nursery Rhyme'},{value:8, desc:'First Friends 1'},{value:9, desc:'First Friends 2'},
 						{value:10, desc:'First Friends 3'},{value:11, desc:'剑桥少儿英语1上'},{value:12, desc:'剑桥少儿英语1下'},
-						{value:13, desc:'剑桥少儿英语2上'},{value:14, desc:'剑桥少儿英语2下'},{value:15, desc:'剑桥少儿英语3上'},{value:16, desc:'剑桥少儿英语3下'}],
+						{value:13, desc:'剑桥少儿英语2上'},{value:14, desc:'剑桥少儿英语2下'},{value:15, desc:'剑桥少儿英语3上'},{value:16, desc:'剑桥少儿英语3下'},
+						{value:17, desc:'OurWorld1'},{value:18, desc:'OurWorld2'},{value:19, desc:'OurWorld3'}],
                     refs:{},
                     value : 0
                 },
