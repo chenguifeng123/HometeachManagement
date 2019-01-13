@@ -227,6 +227,11 @@ var vm = new Vue({
         },
         refresh :function(){
             // 初始化原始数据
+			if(!model){
+				window.location.href="/login.html";
+                location.replace('/login.html');
+				return;
+			}
             this.tableMeta = model;
             this.tableUrl = modelName;
 
