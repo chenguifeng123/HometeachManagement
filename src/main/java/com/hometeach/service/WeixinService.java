@@ -1,24 +1,20 @@
 package com.hometeach.service;
 
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import org.springframework.transaction.annotation.Transactional;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
 import com.hometeach.dto.BaseUser;
 import com.hometeach.dto.JoinClass;
 import com.hometeach.dto.JoinPerson;
 import com.hometeach.util.Utils;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Iterator;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 
 @RestController
-public class WeixinService extends AbstractWeixinService{
+public class WeixinService extends AbstractWeixinService {
 
 	private static final int DEFAULT_RESULT_COUNT = 2000;
 

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.hometeach.dao.WeixinDao" >
+
+
+	<!-- 增加拼班 -->
+	<insert id="addJoinClass" useGeneratedKeys="true" keyProperty="classId" parameterType="com.hometeach.dto.JoinClass">
+        insert into weixin_joinClass(childAge, minNum, openid, nickName, iconPath, contactName, phoneNumber, area, address) values(#{childAge}, #{minNum}, #{openid}, #{nickName}, #{iconPath}, #{contactName}, #{phoneNumber}, #{area}, #{address})
+    </insert>
+	
+	<insert id="addJoinPerson" useGeneratedKeys="true" keyProperty="classId" parameterType="com.hometeach.dto.JoinPerson">
+        insert into weixin_joinPerson(classId, childAge, openid, nickName, iconPath, isStarter, contactName, phoneNumber, area, address) values(#{classId}, #{childAge}, #{openid}, #{nickName}, #{iconPath}, #{isStarter}, #{contactName}, #{phoneNumber}, #{area}, #{address})
+    </insert>
+	
+	<!-- 获取拼班列表 -->
+	<select id="getAllJoinClass" resultType="java.util.LinkedHashMap">
+        select a.classId, a.className, a.childAge, a.minNum, count(b.personId) as currentNum, a.minNum - count(b.personId) as lastNum, a.nickName, a.iconPath, a.address, a.area 
+		from weixin_joinClass a, weixin_joinPerson b
+		where a.classId = b.classId GROUP BY a.classId
+		order by classId desc
+		limit #{showCount}
+    </select>
+	
+	<!-- 获取拼班列表 新设计使用 -->
+	<resultMap type="java.util.LinkedHashMap" id="newClassList">
+        <id column="classId" property="classId"/>
+		<id column="className" property="className"/>
+		<id column="childAge" property="childAge"/>
+		<id column="minNum" property="minNum"/>
+		<id column="currentNum" property="currentNum"/>
+		<id column="lastNum" property="lastNum"/>
+		<id column="address" property="address"/>
+		<id column="area" property="area"/>
+        <collection property="personList" ofType="java.util.LinkedHashMap" javaType="java.util.List">
+            <id column="nickName" property="nickName"/>
+			<id column="iconPath" property="iconPath"/>
+			<id column="personId" property="personId"/>
+			<id column="openid" property="openid"/>
+        </collection>
+    </resultMap>
+	<select id="getNewAllJoinClass" resultMap="newClassList">
+        select * from
+			(select a.classId, a.className, a.childAge, a.minNum, count(b.personId) as currentNum, a.minNum - count(b.personId) as lastNum, a.address, a.area
+			from weixin_joinClass a, weixin_joinPerson b
+			where a.classId = b.classId GROUP BY a.classId) t, weixin_joinPerson s where t.classId = s.classId
+		order by t.classId desc, isStarter desc
+    </select>
+	
+	<!-- 获取单个拼班信息 -->
+	<select id="getJoinClassById" resultType="java.util.LinkedHashMap">
+        select * from weixin_joinClass where classId = #{classId}
+    </select>
+	
+	<select id="getJoinPersonById" resultType="java.util.LinkedHashMap">
+        select * from weixin_joinPerson where personId = #{personId}
+    </select>
+	
+	<select id="getJoinPersonByClass" resultType="java.util.LinkedHashMap">
+        select * from weixin_joinPerson where classId = #{classId}
+    </select>
+	
+	<!-- 获取指定用户的拼班 -->
+	<select id="getJoinClassByOpenId" resultType="java.util.LinkedHashMap">
+        select m.classId, m.childAge, m.nickName, m.iconPath, m.address, m.area, m.isStarter, m.personId, n.minNum, n.currentNum, n.lastNum
+		from weixin_joinPerson m ,
+		(select b.classId, a.minNum, count(b.personId) as currentNum, a.minNum - count(b.personId) as lastNum
+			from weixin_joinClass a, weixin_joinPerson b where a.classId = b.classId group by b.classId) n
+		where m.classId = n.classId and m.openid = #{openid}
+    </select>
+	
+	<select id="getJoinPersonByOpenId" resultType="java.util.LinkedHashMap">
+        select * from weixin_joinPerson where  openid = #{openid}
+    </select>
+	
+	<select id="hasPersonJoined" resultType="java.util.LinkedHashMap">
+        select openid from weixin_joinPerson where  openid = #{openid} and classId = ${classId}
+    </select>
+	
+	<delete id="deleteJoinPerson">
+        delete from weixin_joinPerson where personId = #{personId}
+    </delete>
+	
+	<!-- 更新拼班信息 -->
+	<update id="updateJoinClassName">
+		update weixin_joinClass set className = #{className} where classId = ${classId}
+	</update>
+	
+	<update id="updateJoinClassContact" parameterType="com.hometeach.dto.BaseUser">
+		update weixin_joinClass set contactName = #{contactName}, phoneNumber = #{phoneNumber}, area = #{area}, address = #{address} where openid = #{openid}
+	</update>
+	
+	<update id="updateJoinPersonContact" parameterType="com.hometeach.dto.BaseUser">
+		update weixin_joinPerson set contactName = #{contactName}, phoneNumber = #{phoneNumber}, area = #{area}, address = #{address} where openid = #{openid}
+	</update>
+	
+	<!-- 学员信息 -->
+	<select id="getStudent" resultType="java.util.LinkedHashMap">
+        select globalId, concat(chineseName,englishName) as studentName from student where globalId = ${studentId} or motherPhone = ${studentId} or fatherPhone = ${studentId};
+    </select>
+	
+	<select id="getGradeByStudent" resultType="java.util.LinkedHashMap">
+        select className,classType,kidsNumber,currentBook, teacher.lastName as teacherName, concat(teachingTime1, ' ' , teachingTime2) as teachingTime,
+			grade.address, classNumber, classNumber - ifnull(max(currentClassNumber),0) as remainClassNumber, teachingAssistant,startTime
+		from grade left join teaching on grade.classId = teaching.classId left join teacher on grade.teacherId = teacher.teacherId
+			where grade.classId in(select classId from student where globalId = ${studentId} or motherPhone = ${studentId} or fatherPhone = ${studentId} );
+    </select>
+	
+	<!-- 授课信息 -->
+	<select id="getTeachingListByStudent" resultType="java.util.LinkedHashMap">
+		select teachingType,teachingAddress, teacher.lastName as teacherName,concat(ifnull(teachingDate,''), ' ' , ifnull(teaching.teachingTime,'')) as teachingTime,absentStudentId
+		from teaching left join teacher on teaching.teacherId = teacher.teacherId 
+		where classId in(select classId from student where globalId = ${studentId} or motherPhone = ${studentId} or fatherPhone = ${studentId} )
+		order by teachingDate desc
+    </select>
+	
+	<!-- 语音视频 -->
+	<resultMap type="java.util.LinkedHashMap" id="voiceBook">
+        <id column="bookId" property="bookId"/>
+        <collection property="unitIdList" ofType="java.util.LinkedHashMap" javaType="java.util.List">
+            <id column="unitId" property="unitId"/>
+        </collection>
+    </resultMap>
+	
+	<select id="getBookId" resultMap="voiceBook">
+		select bookId,unitId from weixin_points order by bookId,unitId
+    </select>
+	
+	<select id="getUnitLesson" resultType="java.util.LinkedHashMap">
+		select * from weixin_points where bookId = #{bookId} and unitId = #{unitId} order by lessonId
+    </select>
+	
+	<!-- Link Job 的配置信息 -->
+	<insert id="addJob" useGeneratedKeys="true" keyProperty="jobId" parameterType="com.hometeach.dto.Job">
+        insert into en_job(title,location,jobType,description,openId,nickName,iconPath,validTime,publishTime) values(#{title}, #{location}, #{jobType}, #{description}, #{openId}, #{nickName}, #{iconPath}, #{validTime}, #{publishTime})
+    </insert>
+	
+	<select id="getAllJobs" resultType="java.util.LinkedHashMap">
+        select * from en_job
+    </select>
+	
+	<!-- Hometeach 签到 -->
+	<select id="getLocalTeacher" resultType="java.util.LinkedHashMap">
+        select teacherId, lastName, hourSalary from teacher where phone like ${phone}
+    </select>
+	
+	<select id="getTeacherLecture" resultType="java.util.LinkedHashMap">
+        select s.lastName, g.className, t.teachingDate, t.teachingTime, t.currentClassNumber - t.lastClassNumber as duration 
+		   from teacher s, teaching t,grade g 
+		where s.teacherId = t.teacherId and t.classId = g.classId and
+			t.teacherId = ${teacherId} and t.teachingType != 2 and g.classStatus = 0
+    </select>
+	
+	<select id="getDurationByClass" resultType="java.util.LinkedHashMap">
+        select classDuration1 as duration, address, teachingTime1 as teachingTime from grade
+			where classId = #{classId} and teachingTime1 like ${week}
+			union 
+		select classDuration2 as duration, address, teachingTime2 as teachingTime from grade
+			where classId = #{classId} and teachingTime2 like ${week}
+    </select>
+	
+	<select id="getLastClassNumber" resultType="java.util.LinkedHashMap">
+        select case when count(currentClassNumber) = 0 then 0 else max(currentClassNumber) end as classNumber  from teaching where classId = #{classId}
+    </select>
+	
+	<!-- 签到 -->
+	<insert id="addSignTeaching" useGeneratedKeys="true" keyProperty="teachingId" parameterType="com.hometeach.dto.SignTeaching">
+        insert into teaching(teacherId,classId,teachingType,teachingDate,teachingTime,teachingAddress,teacherArriveTime, currentTeachingPeriod,lastClassNumber,currentClassNumber,beLate) values(#{teacherId}, #{classId}, #{teachingType}, #{teachingDate}, #{teachingTime}, #{teachingAddress}, #{teacherArriveTime}, #{currentTeachingPeriod}, #{lastClassNumber}, #{currentClassNumber}, #{beLate})
+    </insert>
+	
+	<select id="getClassListByTeacher" resultType="java.util.LinkedHashMap">
+        select m.*, s.lastName from
+			(select grade.*,classNumber - ifnull(max(currentClassNumber),0) as remainClassNumber 
+			from grade left join teaching on grade.classId = teaching.classId group by classId) m, teacher s
+		where m.teacherId = s.teacherId and m.teacherId = #{teacherId}
+    </select>	
+	
+	<select id="getClassRecordByTeacher" resultType="java.util.LinkedHashMap">
+        select g.className, case when t.teacherArriveTime is null then t.teachingDate else t.teacherArriveTime end as teacherArriveTime, t.teachingAddress, t.currentTeachingPeriod from grade g, teaching t where t.classId = g.classId and t.teacherId = #{teacherId}
+    </select>
+	
+	<select id="getTeachingSignInToday" resultType="java.util.LinkedHashMap">
+        select teachingId from teaching where classId = #{classId} and teacherId = #{teacherId} and teachingDate = #{teachingDate}
+    </select>	
+</mapper>

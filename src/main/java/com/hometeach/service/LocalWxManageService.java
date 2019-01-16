@@ -1,26 +1,19 @@
 package com.hometeach.service;
 
-import java.util.Date;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.hometeach.dao.EntityDao;
+import com.hometeach.dto.SignTeaching;
+import com.hometeach.util.Utils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.hometeach.dao.EntityDao;
-import com.hometeach.dto.Job;
-import com.hometeach.dto.SignTeaching;
-import com.hometeach.util.Utils;
+import java.util.*;
 
 @RestController
-public class LocalWxManageService extends AbstractWeixinService{
+public class LocalWxManageService extends AbstractWeixinService {
 	
     @Autowired
     public EntityDao entityDao;

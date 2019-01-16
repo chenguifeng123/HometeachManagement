@@ -15,6 +15,7 @@ var vm = new Vue({
         currentRows : [],     // 当前选中的表格行
         currentUrl : '',      // 当前菜单
 		showColumns : [],     // 表格显示列
+		manage:'/manage',
 
         menuList : menu,       // 菜单元数据
         tableUrl : "",         // 原型URL
@@ -227,11 +228,6 @@ var vm = new Vue({
         },
         refresh :function(){
             // 初始化原始数据
-			if(!model){
-				window.location.href="/login.html";
-                location.replace('/login.html');
-				return;
-			}
             this.tableMeta = model;
             this.tableUrl = modelName;
 
@@ -275,8 +271,13 @@ var vm = new Vue({
         },
         // 发送请求到服务端
         post : function(url, data, func, localData){
-            this.$http.post( url, data ).then(
+			var pUrl = this.manage + url;
+            this.$http.post( pUrl, data ).then(
                 function (response){
+					if( response.headers.get("content-type") == "text/html" ){
+						window.location.href="/manage/home.html";
+						location.replace('/manage/home.html');
+					}
                     func(response, localData);
                 },
                 function (response){

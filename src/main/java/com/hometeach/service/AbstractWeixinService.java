@@ -1,17 +1,12 @@
 package com.hometeach.service;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-
+import com.hometeach.dao.WeixinDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
 import org.springframework.web.client.RestTemplate;
 
-import com.hometeach.dao.WeixinDao;
+import java.util.*;
 
 public abstract class AbstractWeixinService {
 

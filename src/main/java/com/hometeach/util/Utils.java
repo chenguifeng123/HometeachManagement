@@ -1,5 +1,10 @@
 package com.hometeach.util;
 
+import com.hometeach.dto.BaseUser;
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang.StringUtils;
+import org.apache.poi.ss.usermodel.Cell;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -12,12 +17,6 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.LinkedHashMap;
 import java.util.List;
-
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang.StringUtils;
-import org.apache.poi.ss.usermodel.Cell;
-
-import com.hometeach.dto.BaseUser;
 /*
     工具类
  */
@@ -188,14 +187,5 @@ public class Utils {
         String dateString = formatter.format(currentTime);  
         return dateString;  
     }  
-    
-    public static void main(String[] args){
-    	//System.out.println(emoji2Utf8("吖bc"));
-    	//System.out.println(utf2Emoji("燕子"));
-    	//System.out.println(utf2Emoji("%E9%94%8B"));
-    	System.out.println(todayString());
-    	System.out.println(getFirstDayByDateInMonth("2018-07-20 11:20:00"));
-    	System.out.println(getLastDayByDateInMonth("2018-07-20 11:20:00"));
-    }
-    
+
 }

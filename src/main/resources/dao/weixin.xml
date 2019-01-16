@@ -147,7 +147,7 @@
         select s.lastName, g.className, t.teachingDate, t.teachingTime, t.currentClassNumber - t.lastClassNumber as duration 
 		   from teacher s, teaching t,grade g 
 		where s.teacherId = t.teacherId and t.classId = g.classId and
-			t.teacherId = ${teacherId} and t.teachingType != 2
+			t.teacherId = ${teacherId} and t.teachingType != 2 and g.classStatus = 0
     </select>
 	
 	<select id="getDurationByClass" resultType="java.util.LinkedHashMap">
