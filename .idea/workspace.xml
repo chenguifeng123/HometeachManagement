@@ -2,27 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7c2d42e-0ed3-4f34-9f1c-7604ba283163" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/controller/ManageController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/controller/WxController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/service/Impl/EntityServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/www.hometeach.cn.jks" afterPath="$PROJECT_DIR$/src/main/resources/www.hometeach.cn.jks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/www.hometeach.cn.jks" afterPath="$PROJECT_DIR$/target/classes/www.hometeach.cn.jks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/training-management-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/training-management-1.0-SNAPSHOT.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/training-management-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/training-management-1.0-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HometeachManagement.iml" afterPath="$PROJECT_DIR$/HometeachManagement.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hometeach/service/AbstractWeixinService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/service/AbstractWeixinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hometeach/service/EntityService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/service/EntityService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hometeach/service/JobService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/service/JobService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hometeach/service/LocalWxManageService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/service/LocalWxManageService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hometeach/service/WeixinService.java" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/service/WeixinService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/hometeach/util/Utils.java" afterPath="$PROJECT_DIR$/src/main/java/com/hometeach/util/Utils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dao/weixin.xml" afterPath="$PROJECT_DIR$/src/main/resources/dao/weixin.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/manage/home.html" afterPath="$PROJECT_DIR$/src/main/resources/static/manage/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/static/manage/model.js" afterPath="$PROJECT_DIR$/src/main/resources/static/manage/model.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/static/manage/home.html" afterPath="$PROJECT_DIR$/target/classes/static/manage/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="HometeachManagement.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,6 +67,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/hometeach/service/LocalWxManageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hometeach/service/AbstractWeixinService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/hometeach/controller/WxController.java" />
+        <option value="$USER_HOME$/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FileUtils.class" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
@@ -94,7 +85,32 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="training-management" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="training-management" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
@@ -127,8 +143,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,9 +241,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HometeachManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HometeachManagement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hometeach" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -241,6 +287,10 @@
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\workspace\git\wuyang\HometeachManagement\src\main\resources" />
+      <recent name="F:\workspace\git\wuyang\HometeachManagement\src\main\resources\static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\workspace\git\wuyang\HometeachManagement\src\main\resources" />
     </key>
@@ -699,43 +749,49 @@
       <workItem from="1546848662670" duration="628000" />
       <workItem from="1547347081097" duration="1133000" />
       <workItem from="1547367993103" duration="1319000" />
-      <workItem from="1547639314251" duration="1774000" />
+      <workItem from="1547639314251" duration="2029000" />
+      <workItem from="1547695918058" duration="40000" />
+      <workItem from="1552273167212" duration="3327000" />
+      <workItem from="1574844754495" duration="966000" />
+      <workItem from="1577953203006" duration="662000" />
+      <workItem from="1578038467142" duration="990000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7688000" />
+    <option name="totallyTimeSpent" value="13928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13958333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13958333" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2324263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34895834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16822916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52947843" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52947843" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2324263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -759,11 +815,60 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="46" column="0" selection-start-line="20" selection-start-column="25" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/EntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/dto/Column.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/dao/EntityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/dao/TableConfigDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/Impl/EntityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/LoginService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +876,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2725">
           <caret line="129" column="63" selection-start-line="129" selection-start-column="45" selection-end-line="129" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +890,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +897,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="37" column="48" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +911,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2725">
           <caret line="129" column="63" selection-start-line="129" selection-start-column="45" selection-end-line="129" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,7 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -843,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,45 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1538991243888" expanded="true" signature="342:578" placeholder="insert into weixin_joinClass... " />
-            <marker date="1538991243888" expanded="true" signature="723:987" placeholder="insert into weixin_joinPerson... " />
-            <marker date="1538991243888" expanded="true" signature="1097:1407" placeholder="select a.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2272:2626" placeholder="select * fro... classId" />
-            <marker date="1538991243888" expanded="true" signature="2290:2532" placeholder="select a.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2739:2796" placeholder="select * fro... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2891:2951" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3049:3107" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3225:3642" placeholder="select m.cla... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3389:3584" placeholder="select b.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="3741:3798" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3891:3978" placeholder="select openi... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="4035:4093" placeholder="delete from " />
-            <marker date="1538991243888" expanded="true" signature="4164:4243" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4340:4489" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4587:4737" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4837:5003" placeholder="select globa... student" />
-            <marker date="1538991243888" expanded="true" signature="5099:5642" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="5523:5640" placeholder="select class... student" />
-            <marker date="1538991243888" expanded="true" signature="5754:6171" placeholder="select teach... teaching" />
-            <marker date="1538991243888" expanded="true" signature="6023:6140" placeholder="select class... student" />
-            <marker date="1538991243888" expanded="true" signature="6554:6616" placeholder="select bookI... weixin_points" />
-            <marker date="1538991243888" expanded="true" signature="6701:6794" placeholder="select * fro... weixin_points" />
-            <marker date="1538991243888" expanded="true" signature="6948:7174" placeholder="insert into en_job... " />
-            <marker date="1538991243888" expanded="true" signature="7262:7282" placeholder="select * fro... en_job" />
-            <marker date="1538991243888" expanded="true" signature="7398:7475" placeholder="select teach... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7570:7846" placeholder="select s.las... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7570:7868" placeholder="select s.las... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7964:8109" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="7964:8267" placeholder="select class... " />
-            <marker date="1538991243888" expanded="true" signature="8122:8267" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="8363:8506" placeholder="select case teaching" />
-            <marker date="1538991243888" expanded="true" signature="8671:9054" placeholder="insert into teaching... " />
-            <marker date="1538991243888" expanded="true" signature="9153:9434" placeholder="select m.*, *" />
-            <marker date="1538991243888" expanded="true" signature="9185:9355" placeholder="select grade... grade" />
-            <marker date="1538991243888" expanded="true" signature="9536:9791" placeholder="select g.cla... grade" />
-            <marker date="1538991243888" expanded="true" signature="9891:10013" placeholder="select teach... teaching" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -897,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2725">
           <caret line="129" column="63" selection-start-line="129" selection-start-column="45" selection-end-line="129" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -905,45 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1538991243888" expanded="true" signature="342:578" placeholder="insert into weixin_joinClass... " />
-            <marker date="1538991243888" expanded="true" signature="723:987" placeholder="insert into weixin_joinPerson... " />
-            <marker date="1538991243888" expanded="true" signature="1097:1407" placeholder="select a.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2272:2626" placeholder="select * fro... classId" />
-            <marker date="1538991243888" expanded="true" signature="2290:2532" placeholder="select a.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2739:2796" placeholder="select * fro... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2891:2951" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3049:3107" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3225:3642" placeholder="select m.cla... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3389:3584" placeholder="select b.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="3741:3798" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3891:3978" placeholder="select openi... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="4035:4093" placeholder="delete from " />
-            <marker date="1538991243888" expanded="true" signature="4164:4243" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4340:4489" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4587:4737" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4837:5003" placeholder="select globa... student" />
-            <marker date="1538991243888" expanded="true" signature="5099:5642" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="5523:5640" placeholder="select class... student" />
-            <marker date="1538991243888" expanded="true" signature="5754:6171" placeholder="select teach... teaching" />
-            <marker date="1538991243888" expanded="true" signature="6023:6140" placeholder="select class... student" />
-            <marker date="1538991243888" expanded="true" signature="6554:6616" placeholder="select bookI... weixin_points" />
-            <marker date="1538991243888" expanded="true" signature="6701:6794" placeholder="select * fro... weixin_points" />
-            <marker date="1538991243888" expanded="true" signature="6948:7174" placeholder="insert into en_job... " />
-            <marker date="1538991243888" expanded="true" signature="7262:7282" placeholder="select * fro... en_job" />
-            <marker date="1538991243888" expanded="true" signature="7398:7475" placeholder="select teach... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7570:7846" placeholder="select s.las... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7570:7868" placeholder="select s.las... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7964:8109" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="7964:8267" placeholder="select class... " />
-            <marker date="1538991243888" expanded="true" signature="8122:8267" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="8363:8506" placeholder="select case teaching" />
-            <marker date="1538991243888" expanded="true" signature="8671:9054" placeholder="insert into teaching... " />
-            <marker date="1538991243888" expanded="true" signature="9153:9434" placeholder="select m.*, *" />
-            <marker date="1538991243888" expanded="true" signature="9185:9355" placeholder="select grade... grade" />
-            <marker date="1538991243888" expanded="true" signature="9536:9791" placeholder="select g.cla... grade" />
-            <marker date="1538991243888" expanded="true" signature="9891:10013" placeholder="select teach... teaching" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,45 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3725">
           <caret line="149" column="84" selection-start-line="149" selection-start-column="84" selection-end-line="149" selection-end-column="84" />
-          <folding>
-            <marker date="1538991243888" expanded="true" signature="342:578" placeholder="insert into weixin_joinClass... " />
-            <marker date="1538991243888" expanded="true" signature="723:987" placeholder="insert into weixin_joinPerson... " />
-            <marker date="1538991243888" expanded="true" signature="1097:1407" placeholder="select a.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2272:2626" placeholder="select * fro... classId" />
-            <marker date="1538991243888" expanded="true" signature="2290:2532" placeholder="select a.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2739:2796" placeholder="select * fro... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2891:2951" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3049:3107" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3225:3642" placeholder="select m.cla... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3389:3584" placeholder="select b.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="3741:3798" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3891:3978" placeholder="select openi... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="4035:4093" placeholder="delete from " />
-            <marker date="1538991243888" expanded="true" signature="4164:4243" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4340:4489" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4587:4737" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4837:5003" placeholder="select globa... student" />
-            <marker date="1538991243888" expanded="true" signature="5099:5642" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="5523:5640" placeholder="select class... student" />
-            <marker date="1538991243888" expanded="true" signature="5754:6171" placeholder="select teach... teaching" />
-            <marker date="1538991243888" expanded="true" signature="6023:6140" placeholder="select class... student" />
-            <marker date="1538991243888" expanded="true" signature="6554:6616" placeholder="select bookI... weixin_points" />
-            <marker date="1538991243888" expanded="true" signature="6701:6794" placeholder="select * fro... weixin_points" />
-            <marker date="1538991243888" expanded="true" signature="6948:7174" placeholder="insert into en_job... " />
-            <marker date="1538991243888" expanded="true" signature="7262:7282" placeholder="select * fro... en_job" />
-            <marker date="1538991243888" expanded="true" signature="7398:7475" placeholder="select teach... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7570:7846" placeholder="select s.las... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7570:7868" placeholder="select s.las... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7964:8109" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="7964:8267" placeholder="select class... " />
-            <marker date="1538991243888" expanded="true" signature="8122:8267" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="8363:8506" placeholder="select case teaching" />
-            <marker date="1538991243888" expanded="true" signature="8671:9054" placeholder="insert into teaching... " />
-            <marker date="1538991243888" expanded="true" signature="9153:9434" placeholder="select m.*, *" />
-            <marker date="1538991243888" expanded="true" signature="9185:9355" placeholder="select grade... grade" />
-            <marker date="1538991243888" expanded="true" signature="9536:9791" placeholder="select g.cla... grade" />
-            <marker date="1538991243888" expanded="true" signature="9891:10013" placeholder="select teach... teaching" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,53 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-          <folding>
-            <marker date="1538991243888" expanded="true" signature="342:578" placeholder="insert into weixin_joinClass... " />
-            <marker date="1538991243888" expanded="true" signature="723:987" placeholder="insert into weixin_joinPerson... " />
-            <marker date="1538991243888" expanded="true" signature="1097:1407" placeholder="select a.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2272:2626" placeholder="select * fro... classId" />
-            <marker date="1538991243888" expanded="true" signature="2290:2532" placeholder="select a.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2739:2796" placeholder="select * fro... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="2891:2951" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3049:3107" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3225:3642" placeholder="select m.cla... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3389:3584" placeholder="select b.cla... weixin_joinClass" />
-            <marker date="1538991243888" expanded="true" signature="3741:3798" placeholder="select * fro... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="3891:3978" placeholder="select openi... weixin_joinPerson" />
-            <marker date="1538991243888" expanded="true" signature="4035:4093" placeholder="delete from " />
-            <marker date="1538991243888" expanded="true" signature="4164:4243" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4340:4489" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4587:4737" placeholder="update weixi... " />
-            <marker date="1538991243888" expanded="true" signature="4837:5003" placeholder="select globa... student" />
-            <marker date="1538991243888" expanded="true" signature="5099:5642" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="5523:5640" placeholder="select class... student" />
-            <marker date="1538991243888" expanded="true" signature="5754:6171" placeholder="select teach... teaching" />
-            <marker date="1538991243888" expanded="true" signature="6023:6140" placeholder="select class... student" />
-            <marker date="1538991243888" expanded="true" signature="6554:6616" placeholder="select bookI... weixin_points" />
-            <marker date="1538991243888" expanded="true" signature="6701:6794" placeholder="select * fro... weixin_points" />
-            <marker date="1538991243888" expanded="true" signature="6948:7174" placeholder="insert into en_job... " />
-            <marker date="1538991243888" expanded="true" signature="7262:7282" placeholder="select * fro... en_job" />
-            <marker date="1538991243888" expanded="true" signature="7398:7475" placeholder="select teach... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7570:7846" placeholder="select s.las... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7570:7868" placeholder="select s.las... teacher" />
-            <marker date="1538991243888" expanded="true" signature="7964:8109" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="7964:8267" placeholder="select class... " />
-            <marker date="1538991243888" expanded="true" signature="8122:8267" placeholder="select class... grade" />
-            <marker date="1538991243888" expanded="true" signature="8363:8506" placeholder="select case teaching" />
-            <marker date="1538991243888" expanded="true" signature="8671:9054" placeholder="insert into teaching... " />
-            <marker date="1538991243888" expanded="true" signature="9153:9434" placeholder="select m.*, *" />
-            <marker date="1538991243888" expanded="true" signature="9185:9355" placeholder="select grade... grade" />
-            <marker date="1538991243888" expanded="true" signature="9536:9791" placeholder="select g.cla... grade" />
-            <marker date="1538991243888" expanded="true" signature="9891:10013" placeholder="select teach... teaching" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/util/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="147" column="12" selection-start-line="147" selection-start-column="12" selection-end-line="147" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,15 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4550">
           <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/FileService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1110,87 +1030,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="26" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/controller/WxController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/EntityService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/controller/ManageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="61" column="5" selection-start-line="16" selection-start-column="0" selection-end-line="61" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/Impl/EntityServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1525">
-          <caret line="74" column="15" selection-start-line="74" selection-start-column="15" selection-end-line="74" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/AbstractWeixinService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="37" column="48" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1198,7 +1045,139 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FileUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="946" column="23" selection-start-line="946" selection-start-column="23" selection-end-line="946" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="46" column="0" selection-start-line="20" selection-start-column="25" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/Impl/EntityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/EntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/dto/Column.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/dao/EntityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="925">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manage/template/weixin_songList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manage/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2325">
+          <caret line="93" column="28" selection-start-line="93" selection-start-column="28" selection-end-line="93" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/controller/WxController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/controller/ManageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/manage/template/weixin_songClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/dao/TableConfigDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hometeach/service/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

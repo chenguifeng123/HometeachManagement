@@ -6,6 +6,7 @@ F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dto\Join
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\excel\BasicExcelHelper.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\config\HttpsConfig.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\config\RestTemplateConfig.java
+F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\service\Impl\EntityServiceImpl.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dto\Column.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dto\TableConfig.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\service\LocalWxManageService.java
@@ -18,9 +19,11 @@ F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dto\Base
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\service\EntityService.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dto\JoinClass.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\service\JobService.java
+F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\controller\WxController.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dao\WeixinDao.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\service\WeixinService.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dto\SignTeaching.java
+F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\controller\ManageController.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dao\DaoScan.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\dao\TableConfigDao.java
 F:\workspace\git\wuyang\HometeachManagement\src\main\java\com\hometeach\excel\XlsExcelHelper.java

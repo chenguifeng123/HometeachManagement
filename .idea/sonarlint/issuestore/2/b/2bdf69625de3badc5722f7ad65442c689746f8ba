@@ -1,0 +1,6 @@
+
+psquid:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(‚›Åå
+asquid:S4488"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(…ü¶Í
+bsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(›Ö¿ž
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(œõóÌþÿÿÿÿ
+?squid:S1148+"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

@@ -1,0 +1,13 @@
+
+bsquid:S1192d"KDefine a constant instead of duplicating this literal "yyyy-MM-dd" 5 times.(©Ÿ¶Î
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(¼Øûì
+csquid:S00112T"FDefine and throw a dedicated exception instead of using a generic one.(ûí˜ûÿÿÿÿ
+dsquid:S00112¡"FDefine and throw a dedicated exception instead of using a generic one.(Ê“Åıÿÿÿÿ
+9squid:S2386"Make this member "protected".(ùË¸»øÿÿÿÿ
+zsquid:S1488»"bImmediately return this expression instead of assigning it to the temporary variable "dateString".(‚Ùµë
+Bsquid:S00108“")Either remove or fill this block of code.(”ı¾
+@squid:S1148ƒ"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+gsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(†€·´øÿÿÿÿ
+^squid:S00112i"FDefine and throw a dedicated exception instead of using a generic one.(½à²è
+?squid:S1148z"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Dsquid:S1125E"(Remove the literal "true" boolean value.(Ÿ‘üøÿÿÿÿ

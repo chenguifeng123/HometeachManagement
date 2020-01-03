@@ -142,7 +142,7 @@
 					</el-table-column>
 					<el-table-column  type="index" width="50" :index="indexMethod">
 					</el-table-column>
-					<el-table-column :prop="column.name" min-width="120" v-if="column.name != tableMeta.key && showColumns.indexOf(column.name) >= 0" :label="column.desc" v-for="column in tableMeta.columns"
+					<el-table-column :prop="column.name" min-width="130" v-if="column.name != tableMeta.key && showColumns.indexOf(column.name) >= 0" :label="column.desc" v-for="column in tableMeta.columns"
 									 :key="column.name" show-overflow-tooltip sortable :render-header="headerFormatter" :formatter="tableColumnFormmater">
 						<!--template scope="scope">
 							<el-popover trigger="hover" placement="top">
